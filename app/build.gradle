@@ -3,7 +3,7 @@ apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 32
-   
+
     lintOptions {
         checkReleaseBuilds false
     }

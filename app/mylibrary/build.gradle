@@ -4,7 +4,7 @@ publishing {
 publications {
     maven(MavenPublication) {
         groupId = 'com.grozziie'
-        artifactId = 'mylibrary'
+        artifactId = 'locash'
         version = "1.0.0"
 
 

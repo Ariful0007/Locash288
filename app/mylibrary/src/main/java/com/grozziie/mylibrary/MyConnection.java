@@ -13,6 +13,7 @@ public class MyConnection {
        try {
            bluetoothAdapter=BluetoothAdapter.getDefaultAdapter();
 
+
        }catch (Exception e) {
        }
 

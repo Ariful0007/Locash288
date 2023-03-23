@@ -1,20 +1,23 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
-publishing {
-publications {
-    maven(MavenPublication) {
-        groupId = 'com.grozziie'
-        artifactId = 'locash'
-        version = "1.0.0"
+
+afterEvaluate {
+    publishing {
+        publications {
+            maven(MavenPublication) {
+                groupId = 'com.github.philipplackner'
+                artifactId = 'mylibrary'
+                version = "1.0.0"
 
 
-        pom {
-            description = 'A description of my library'
+                pom {
+                    description = 'A description of my library'
 
+                }
+
+            }
         }
-
-}
-}
+    }
 }
 android {
     compileSdkVersion 32

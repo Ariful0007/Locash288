@@ -17,5 +17,7 @@ public class MainActivity extends AppCompatActivity {
        // messageLibrary.mymessage(MainActivity.this,"mY nAME IS ARIF");
         MessageLibrary messageLibrary=new MessageLibrary();
 
+     messageLibrary.mymessage(MainActivity.this,"fh");
+
     }
 }

@@ -5,7 +5,7 @@ afterEvaluate {
     publishing {
         publications {
             maven(MavenPublication) {
-                groupId = 'com.github.philipplackner'
+                groupId = 'com.github.Ariful0007'
                 artifactId = 'mylibrary'
                 version = "1.0.0"
 

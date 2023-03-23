@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.grozziie.mylibrary.MessageLibrary;
+
 
 
 public class MainActivity extends AppCompatActivity {
@@ -15,9 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
        // MessageLibrary messageLibrary=new MessageLibrary();
        // messageLibrary.mymessage(MainActivity.this,"mY nAME IS ARIF");
-        MessageLibrary messageLibrary=new MessageLibrary();
 
-     messageLibrary.mymessage(MainActivity.this,"fh");
 
     }
 }

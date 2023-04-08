@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button1"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:text="Getting Data"
+            android:id="@+id/gettingdata"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            ></Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:id="@+id/alldataget"
+            android:theme="@style/AlertTextAppearance.Text"
+            >
+
+        </TextView>
+    </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>
